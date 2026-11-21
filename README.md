@@ -31,6 +31,10 @@ The allocator is built upon a **Segregated Fits / Bucket Allocator** design:
 * **Minimizing System Calls:** `mmap` is notoriously slow if called for every small allocation. The bucket system requests entire pages at once, serving dozens or hundreds of `malloc` calls from a single system call.
 * **Alignment Constraints:** Padding mathematics are implemented to ensure all structures and returned pointers are strictly aligned to hardware requirements (16-byte boundaries) to prevent segmentation faults on modern architectures.
 
+## 🛠️ Skills
+
+`C` · `Git` · `Operating Systems`
+
 ## 🎯 How to test the project?
 
 A pre-compiled shared library is available for testing.
